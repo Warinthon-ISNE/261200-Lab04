@@ -42,7 +42,7 @@ public class HealthRecord {
 
         // Update average using: y' = (y*n + x)/(n+1)
         averageHeight = (averageHeight*counter + this.height)/(counter+1);
-        counter++; // increment counter | count number of persons height
+        counter++; // increment counter | count number of patient but really just use it for find average height
 
     }
 
